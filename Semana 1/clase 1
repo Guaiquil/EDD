@@ -1,0 +1,79 @@
+#include <stdio.h> 	// Estandar input output
+#include <stdlib.h> //conversión, memoria, control de procesos (malloc, free, atoi, rand,srand,exit,system)
+#include <math.h>	//operaciones matematicas (pow,sin,cos,sqrt,exp,ceil,floor)
+
+#define pi 3.14 					// declara una macro
+#define saludo "hola como estas"	// un mensaje
+#define max(A,B) ((A)>(B)?(A):(B))	// una funcion
+#define tipo_entero int				//redefinimos el tipo int
+
+		Comentarios :
+Linea //
+Parrafo /* ---- */
+
+		Datos Numericos Enteros:
+
+short  -> Entero corto		2 bytes		
+int	   -> Entero			4 bytes
+long   -> Entero largo		4 bytes
+char   -> Carácter			1 bytes
+
+		Datos Numericos Reales:
+
+float		->	Real(numero en coma flotante)
+double		->	Real doble (numero en coma flotante doble precision)
+long double	->	Real doble largo
+
+		Datos Lógico:
+
+bool  -> Dato tipo lógico (True o False)(se maneja entre 1 y 0 )
+
+		Aritmeticos:
+
++ (sumar)					% (resto de division)
+- (restar)					++ (a++ ; // a=a+1;)
+/ (dividir)					-- (a-- ; // a=a-1;)
+* (mulltiplicacion)
+
+		Short Hands:
+						
+*=					/=
++=
+-=
+
+		Relacionales:
+		
+< (menor)					== (comparacion)
+> (mayor)				    != (Pregunta si son distintos)
+<= (menor o igual)
+>= (mayor o igual)
+
+		Logicos:
+
+&& (y)
+|| (o)
+!  (!a cambia el valor al contrario)
+
+		
+		Despliegue de informacion:
+		
+printf	(printf ("imprime por pantalla");)
+printf	(printf ("%d", a);)-> imprime variable
+
+		Formatos para imprimir formatos:
+		
+%c (caracter)						%d (int)
+%e (notacion cientifica)			%f (float)
+%s (cadena de caracteres)			%% (porcentaje)
+%lu (long int)						%f (doublé)
+puts ("imprime informacion por pantalla")
+
+		Captura de informacion:
+		
+scanf (lee y guarda datos de la entrada estándar)
+scanf("%d %f",&a&f)-> Lee un dato entero y luego flotante
+
+
+
+
+			

@@ -1,0 +1,77 @@
+		Casting
+
+convierte un tipo de dato a otro de forma:
+
+Implicito: Se realiza de forma automatica 
+			ej:		double n;
+					int x = 7
+					n = x/3
+					
+Explicito: Es necesario usar un operador tipo cast
+			ej:		double n;
+					int a = 7 
+					n = (double)a /3 -> Transforma a solamente
+
+		Sentencias de Control
+		
+if(expresion){				
+/*instrucciones/*
+}
+
+
+if(expresion){
+/*instrucciones/*
+}else{
+/*instrucciones/*
+}
+
+
+switch(ch){
+	case '+': r = x+y ;break;
+	case '-': r = x-y ;break;
+	case '*': r = x*y ;break;
+	case '/': 
+			if (y) r= x/y;
+			else printf("division por cero\n");
+	break;
+default;
+	printf("No conozco esa operación %c, ch");
+}
+
+		Bucles
+					
+while(expresion)
+/*Instrucciones*/
+
+
+do
+  /*Instrucciones*/
+while (expresion);
+
+
+for(inicio;test;actualizacion)
+  sentencia
+  
+ej:
+	for(i=0;i<=10;i++);
+	printf("%d,&i);
+	
+		Break y Continue
+		
+break; es la sentencia que fuerza a la salida de un bucle for, while, do-while y de la sentencia switch
+
+continue; produce un salto a las siguiente iteracion del ciclo for, do-while o while.
+
+		
+		Arreglos
+
+1) coleccion de datos del mismo tipo
+2) orden asociado a cada elemento -> indice
+3) tienen dimension y tamaño
+4) se almacena en posiciones contiguas de memoria
+
+ej: int[7]; 		//tamaño 7 
+	int[2][3];		//tamaño 6, [fila][columnas]
+	int[3][3][3];	//tamaño 27
+	
+		
